@@ -1,13 +1,8 @@
 <?php include "components/header.php"; ?>
+
+<h1>Olá PHP!</h1>
+
 <!-- 
-    Incluir extra css e js aqui
- -->
-</head>
-
-<body>
-    Olá PHP!
-
-    <!-- 
     Incluir extra js aqui
  -->
-    <?php include "components/footer.php"; ?>
+<?php include "components/footer.php"; ?>
