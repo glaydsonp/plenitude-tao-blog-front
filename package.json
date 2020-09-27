@@ -1,0 +1,19 @@
+{
+  "name": "blog-plenite-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass ./static/sass -o ./static/css",
+    "css:watch": "npm run css && node-sass ./static/sass -wo ./static/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.11"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
