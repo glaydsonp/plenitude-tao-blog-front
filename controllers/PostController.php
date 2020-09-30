@@ -6,9 +6,9 @@ try {
 }
 
 
-class HomeController
+class PostController
 {
-    static public function index()
+    static public function detail($id)
     {
         try {
             require('classes/Connection.php');
@@ -19,7 +19,7 @@ class HomeController
             echo $e;
         }
         $repository = new PostRepository($connection);
-        $posts = $repository->index();
-        require __DIR__ . '/../views/HomeView.php';
+        $post = $repository->detail($id);
+        require __DIR__ . '/../views/PostDetailView.php';
     }
 }
