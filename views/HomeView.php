@@ -1,8 +1,3 @@
-<?php include "components/header.php"; ?>
+<?php
 
-<h1>Olá PHP!</h1>
-
-<!-- 
-    Incluir extra js aqui
- -->
-<?php include "components/footer.php"; ?>
+require __DIR__ . '/../pages/Home.php';

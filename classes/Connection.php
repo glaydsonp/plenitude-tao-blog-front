@@ -5,7 +5,7 @@ class Connection extends PDO
 
     private static $instancia;
 
-    public function Connection($dns, $user, $pass)
+    public function __construct($dns, $user, $pass)
     {
         parent::__construct($dns, $user, $pass);
     }
